@@ -1,0 +1,58 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+
+        android:orientation="vertical"
+
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+
+
+        <ImageView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="5dip"
+            android:src="@drawable/a"></ImageView>
+
+        <ImageView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="5dip"
+            android:src="@drawable/b"></ImageView>
+        <ImageView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="5dip"
+            android:src="@drawable/c"></ImageView>
+        <ImageView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="5dip"
+            android:src="@drawable/d"></ImageView>
+        <Button
+            android:id="@+id/moveBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Move To Another Activity"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

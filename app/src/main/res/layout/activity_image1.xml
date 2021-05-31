@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <linearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:src="@drawable/a"
+            android:layout_marginTop="20dp"
+
+            />
+        <ImageView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:src="@drawable/b"
+            android:layout_marginTop="20dp"
+
+            />
+        <ImageView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:src="@drawable/c"
+            android:layout_marginTop="20dp"
+
+            />
+        <ImageView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:src="@drawable/d"
+            android:layout_marginTop="20dp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:src="@drawable/e"
+            android:layout_marginTop="20dp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:src="@drawable/f"
+            android:layout_marginTop="20dp"
+            />
+    </linearLayout>
+</ScrollView>

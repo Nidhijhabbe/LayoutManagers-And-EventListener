@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mad_2</string>
+    <string-array name="state" color="@color/black">
+        <item>Haryana</item>
+        <item>Delhi</item>
+        <item>Punjab</item>
+        <item>Gujarat</item>
+    </string-array>
+</resources>
